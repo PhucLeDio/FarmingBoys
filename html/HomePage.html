@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/HomePage.css">
+  <!--
+    Link animate.style
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--
+    Link AOS 
+  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--
+    HOVER CSS
+  -->
+  <link rel="stylesheet" href="../Hover-master/css/hover-min.css">
+  <!--
+    SCSS
+  -->
+  <link rel="stylesheet" href="../sass/style.css">
+  <!--
+    SWIPER JS
+  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!--
+    I HOVER css
+  -->
+  <link rel="stylesheet" href="../css/ihover.css">
+</head>
+
+<body>
+  <!--
+        HEADER
+    -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-sm">
+      <a class="navbar-brand" href="#"><span class="text-warning">Trip</span>Vise</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Port</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!--
+        CAROUSEL
+    -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active bg-1">
+        <div class="carousel-caption">
+          <h5 class="animate__animated animate__lightSpeedInRight">Best in <span class="text-warning">Tourism</span>
+          </h5>
+          <p class="animate__animated animate__lightSpeedInRight">Some representative placeholder content for the first
+            slide.</p>
+          <a href="" class="bg-waring text-white animate__animated animate__fadeInUp">Learn more</a>
+        </div>
+      </div>
+      <div class="carousel-item bg-2">
+        <div class="carousel-caption">
+          <h5 class="animate__animated animate__lightSpeedInRight">Best in <span class="text-warning">Tourism</span>
+          </h5>
+          <p class="animate__animated animate__lightSpeedInRight">Some representative placeholder content for the first
+            slide.</p>
+          <a href="" class="bg-waring text-white animate__animated animate__fadeInUp">Learn more</a>
+        </div>
+      </div>
+      <div class="carousel-item bg-3">
+        <div class="carousel-caption">
+          <h5 class="animate__animated animate__lightSpeedInRight">Best in <span class="text-warning">Tourism</span>
+          </h5>
+          <p class="animate__animated animate__lightSpeedInRight">Some representative placeholder content for the first
+            slide.</p>
+          <a href="" class="bg-waring text-white animate__animated animate__fadeInUp">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"><img src="../img/forest.jpg" alt=""
+          class="d-block w-100 img-fluid"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"><img
+          src="../img/sea.jpg" alt="" class="d-block w-100 img-fluid"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"><img
+          src="../img/sky.jpg" alt="" class="d-block w-100 img-fluid"></button>
+    </div>
+  </div>
+
+  <!--
+    CONTENT
+  -->
+  <div data-aos="fade-up" class="container-sm welcome">
+    <h3>ENVIROMENT</h3>
+    <div class="line-5"></div>
+    <br><br>
+    <h4>CLIMATE CHANGE</h4>
+    <p>"Climate change is an environmental problem caused by human activities that is leading to negative impacts such
+      as rising sea levels, natural disasters, and loss of biodiversity. Addressing this issue requires reducing
+      greenhouse gas emissions and increasing conservation efforts."</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div data-aos="fade-up" data-aos-delay="200" class="card" style="border: none;">
+            <img src="../img/cause of climate change.avif" class="card-img-top rounded hvr-grow" alt="..."
+              style="height: 214.34px;">
+            <div class="card-body">
+              <h5 class="card-title">Cause of climate change</h5>
+              <p class="card-text">Human activities are driving the global warming trend observed since the mid-20th
+                century.</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="300" class="col-md-4">
+          <div class="card" style="border: none;">
+            <img src="../img/effect of climate change.jpg" class="card-img-top rounded hvr-grow" alt="..."
+              style="height: 214.34px;">
+            <div class="card-body">
+              <h5 class="card-title">Effect of climate change</h5>
+              <p class="card-text">The effects of human-caused global warming are happening now, are irreversible for
+                people alive today, and will worsen as long as humans add greenhouse gases to the atmosphere.</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="400" class="col-md-4">
+          <div class="card" style="border: none;">
+            <img src="../img/solve climate change.jpg" class="card-img-top rounded hvr-grow" alt="..."
+              style="height: 214.34px;">
+            <div class="card-body">
+              <h5 class="card-title">Solve climate change</h5>
+              <p class="card-text">This can be done by transitioning to clean and renewable energy sources, such as wind
+                and solar power, and phasing out the use of fossil fuels.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div data-aos="fade-right" data-aos-delay="200" class="card" style="border: none;">
+            <img src="../img/save wild life.avif" class="card-img-top save-wildlife rounded hvr-grow" alt="...">
+            <div class="card-body">
+              <p class="card-text">"Protect their home, preserve their lives - save the wildlife today!"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div data-aos="fade-left" data-aos-delay="300" class="card" style="border: none;">
+            <img src="../img/green energy logo.jpg" class="card-img-top green-energy rounded hvr-grow" alt="...">
+            <div class="card-body">
+              <p class="card-text">"Sustainable energy for a sustainable future"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+      PARALLAX
+    -->
+  <div class="image-save-enviroment">
+    <div class="container-fluid parallax">
+      <br><br><br><br><br><br><br>
+      <h5 data-aos="zoom-in" data-aos-duration="1000" style="color: white; -webkit-text-stroke: 1px black;">Let's save
+        <span>Enviroment</span> together!
+      </h5>
+    </div>
+  </div>
+
+  <!--
+    ALL CLIMATE iN THE EARTH
+  -->
+  <section class="activity">
+    <div class="container">
+      <h3 style="text-align: center;">ALL CLIMATE IN THE EARTH</h3><br>
+      <div class="carousel">
+        <input type="radio" name="slides" checked="checked" id="slide-1">
+        <input type="radio" name="slides" id="slide-2">
+        <input type="radio" name="slides" id="slide-3">
+        <input type="radio" name="slides" id="slide-4">
+        <input type="radio" name="slides" id="slide-5">
+        <input type="radio" name="slides" id="slide-6">
+        <ul class="carousel__slides">
+          <li class="carousel__slide">
+            <figure>
+              <div data-aos="fade-up" data-aos-duration="1000">
+                <img src="https://picsum.photos/id/1041/800/450" alt="">
+              </div>
+              <figcaption data-aos="fade-up" data-aos-duration="1000">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="credit">Photo: Tim Marshall</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="carousel__slide">
+            <figure>
+              <div>
+                <img src="https://picsum.photos/id/1043/800/450" alt="">
+              </div>
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="credit">Photo: Christian Joudrey</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="carousel__slide">
+            <figure>
+              <div>
+                <img src="https://picsum.photos/id/1044/800/450" alt="">
+              </div>
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="credit">Photo: Steve Carter</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="carousel__slide">
+            <figure>
+              <div>
+                <img src="https://picsum.photos/id/1045/800/450" alt="">
+              </div>
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="credit">Photo: Aleksandra Boguslawska</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="carousel__slide">
+            <figure>
+              <div>
+                <img src="https://picsum.photos/id/1049/800/450" alt="">
+              </div>
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="credit">Photo: Rosan Harmens</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="carousel__slide">
+            <figure>
+              <div>
+                <img src="https://picsum.photos/id/1052/800/450" alt="">
+              </div>
+              <figcaption>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="credit">Photo: Annie Spratt</span>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+        <ul class="carousel__thumbnails">
+          <li>
+            <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="100" alt=""></label>
+          </li>
+          <li>
+            <label for="slide-2"><img src="https://picsum.photos/id/1043/150/150" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="200" alt=""></label>
+          </li>
+          <li>
+            <label for="slide-3"><img src="https://picsum.photos/id/1044/150/150" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="300" alt=""></label>
+          </li>
+          <li>
+            <label for="slide-4"><img src="https://picsum.photos/id/1045/150/150" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="400" alt=""></label>
+          </li>
+          <li>
+            <label for="slide-5"><img src="https://picsum.photos/id/1049/150/150" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="500" alt=""></label>
+          </li>
+          <li>
+            <label for="slide-6"><img src="https://picsum.photos/id/1052/150/150" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="600" alt=""></label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--
+    DONATE
+  -->
+  <div class="donate">
+    <div class="container-fluid next-parallax donate-us position-relative">
+      <div class="text-center ">
+        <div data-aos="fade-down-left" class="card-body position-absolute top-50 start-50 translate-middle">
+          <h5 class="card-title">JOIN US AND HELP US BY DONATION</h5>
+          <br>
+          <div class="btn-3d">
+            <span class="btn-3d-group"><a href=""></a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+    UPCOMING EVENT
+  -->
+  <div class="container-sm my-5">
+    <h3>Upcoming event</h3>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <div data-aos="fade-up" data-aos-duration="1000" class="card" style="border: none;">
+          <img src="../img/chu nhat xanh vku.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Green sunday</h5>
+            <p class="card-text">"Green Sunday is a regular activity of VKU Youth with the meaning of joining hands to
+              build a green - clean - beautiful environment. Through the activities of union members - young people have
+              contributed to propagandizing and mobilizing students to dispose of garbage in the right place, maintain
+              hygiene, and not throw garbage indiscriminately... step by step forming a civilized and responsible
+              lifestyle more responsible for the environment of each individual in society."</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 event-day">
+        <div class="container-sm">
+          <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" class="card mb-3"
+            style="max-width: 540px; border: none;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/enviroment walk.jpg" class="img-fluid rounded-start walking" alt="..."
+                  style="height: 179.46px;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Enviroment walk</h5>
+                  <p class="card-text">"A healthy environment walk is a walk in a place that promotes good health, like
+                    a park or beach."</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" class="card mb-3"
+            style="max-width: 540px; border: none;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/enviroment cycle.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Cycle for enviroment</h5>
+                  <p class="card-text">"Cycling for the environment" is active transportation that supports personal
+                    health and reducing air pollution, traffic congestion."</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" class="card mb-3"
+            style="max-width: 540px; border: none;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/earth day.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Earth day</h5>
+                  <p class="card-text">"Earth Day is an important reminder to care for the planet and address
+                    environmental challenges on April 22nd every year. "</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+    OUR MISSION AND TESTMOMINALS
+  -->
+  <div class="container-sm swiper-body-1">
+    <div class="row">
+      <div class="col our-mission">
+        <br>
+        <h3>OUR MISSION</h3>
+        <br>
+        <div class="grid text-center">
+          <div data-aos="fade-up" data-aos-duration="1000" class="g-col-6"><img class="img-fluid"
+              src="../img/volumteer enviromental.jpg" alt=""></div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="g-col-6"><img
+              class="img-fluid children-enviromental" src="../img/children enviromental.jpg" style="height: 171.13px;"
+              alt=""></div>
+        </div>
+        <br>
+        <div class="card-body" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <h5 class="card-title">PROPAGANDA AND PROMOTION</h5>
+          <p class="card-text" style="text-align: left;">"Our mission is to propagate and organize activities for the
+            environment to help people raise awareness and contribute to protecting our planet."</p>
+        </div>
+      </div>
+      <div class="col content-wrapper" data-tilt style="transform-style: preserve-3d; transform: perspective(1000px);">
+        <br>
+        <h3>Quotations</h1>
+          <div class="wrapper-for-arrows" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+            <div id="reviewWrap" class="review-wrap" style="transform: translateZ(20px);">
+              <div id="imgDiv"></div>
+              <div id="personName"></div>
+              <div id="profession"></div>
+              <div id="description"></div>
+            </div>
+            <div id="surpriseMeBtn" class="surprise-me-btn">Surprise me</div>
+            <div class="left-arrow-wrap arrow-wrap">
+              <div class="arrow" id="leftArrow"></div>
+            </div>
+            <div class="right-arrow-wrap arrow-wrap">
+              <div class="arrow" id="rightArrow"></div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+  <!--
+    LASTEST NEWS
+  -->
+  <div class="container-sm lastest-news">
+    <div class="main">
+      <h1><b>LASTEST NEWS</b></h1>
+      <ul class="cards">
+        <li class="cards_item">
+          <div class="card">
+            <div class="ih-item square colored effect4"><a href="#">
+                <div class="img"><img src="../img/air pollution.jpg" alt="img"></div>
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="info">
+                  <h3>Air Pollution</h3>
+                  <p>Description goes here</p>
+                </div>
+              </a></div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="ih-item square colored effect4"><a href="#">
+                <div class="img"><img src="../img/elnino.jpg" alt="img"></div>
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="info">
+                  <h3>El Nino</h3>
+                  <p>Description goes here</p>
+                </div>
+              </a></div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="ih-item square colored effect4"><a href="#">
+                <div class="img"><img src="../img/volcano.png" alt="img"></div>
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="info">
+                  <h3>volcano enrupting</h3>
+                  <p>A volcano erupting releasing carbon dioxide(CO2) and sulfur dioxide(SO2) into the environment.</p>
+                </div>
+              </a></div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="ih-item square colored effect4"><a href="#">
+                <div class="img"><img src="../img/Reef.png" alt="img"></div>
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="info">
+                  <h3>Reef discover</h3>
+                  <p>Description goes here</p>
+                </div>
+              </a></div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="ih-item square colored effect4"><a href="#">
+                <div class="img"><img src="../img/nord stream.jpg" alt="img"></div>
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="info">
+                  <h3>Pipe leak nord stream</h3>
+                  <p>Description goes here</p>
+                </div>
+              </a></div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="ih-item square colored effect4"><a href="#">
+                <div class="img"><img src="images/assets/rect/2.jpg" alt="img"></div>
+                <div class="mask1"></div>
+                <div class="mask2"></div>
+                <div class="info">
+                  <h3>Heading here</h3>
+                  <p>Description goes here</p>
+                </div>
+              </a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  
+  <!-- script boostrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script src="../js/HomePage.js"></script>
+  <!--
+    Script AOS
+  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--
+    Script swiper js
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+
+  </script>
+  <!--
+    SCRIPT vanilla-tilt
+  -->
+  <script src="../js/vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelector(".your class name"), {
+      max: 25,
+      speed: 1000
+    });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</body>
+
+</html>
